@@ -1,0 +1,60 @@
+[
+  {
+    "id":"4",
+    "leave":"1",
+    "path": "/index/Grid",
+    "name": "Grid",
+    "component":"../views/GridLayouts.vue",
+    "meta": { "title": "Grid", "icon": "dashboard", "noCache": false },
+    "switch":1
+  },
+  {
+    "id":"5",
+    "leave":"1",
+    "path": "/index/webGrid",
+    "name": "webGrid",
+    "component":"../views/WebGridLayouts.vue",
+    "meta": { "title": "webGrid", "icon": "dashboard", "noCache": false },
+    "switch":2
+  },
+  {
+    "id":"6",
+    "leave":"1",
+    "path": "/index/secondary",
+    "name": "secondary",
+    "component":"../views/secondary/index.vue",
+    "meta": { "title": "secondary", "icon": "dashboard", "noCache": false },
+    "switch":3
+  },
+  {
+    "id":"60",
+    "leave":"2",
+    "pid":"6",
+    "path": "/index/secondary/table",
+    "name": "table",
+    "component":"../views/TableDemo.vue",
+    "meta": { "title": "table", "icon": "dashboard", "noCache": false },
+    "switch":3
+  },
+  {
+    "id":"61",
+    "leave":"2",
+    "pid":"6",
+    "path": "/index/secondary/websocket",
+    "name": "websocket",
+    "component":"../views/websocket.vue",
+    "meta": { "title": "websocket", "icon": "dashboard", "noCache": false },
+    "switch":3,
+    "hidden":true
+  },
+  {
+    "id":"61",
+    "leave":"2",
+    "pid":"6",
+    "path": "/index/secondary/Keeplive",
+    "name": "Keeplive",
+    "component":"../views/Keeplive.vue",
+    "meta": { "title": "Keeplive", "icon": "dashboard", "noCache": false },
+    "switch":3
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "platform": "h5",
+  "level": "L1",
+  "framework": "vue3",
+  "mode": "pc",
+  "pageModel": "spa",
+  "projectName": "web-sample-room"
+}
